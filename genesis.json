@@ -6385,6 +6385,498 @@
               ]
             }
           ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1vya27e49xlulz75n3cq7pl80d5xkhngg9mj2u4",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9999000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1dnjlcpvx2pe7vy2emxj6hcdleewk0jaj0tlew7",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn14ekv26zhn9cc4yz7akt2c0rzmxf2dz4hmha2s2",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1stusn2aa5tqp5lrsvnmmqn99j5px2myaa76psu",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1curzsl0wjdfeuh4722a83ymdwd3smdzgwduuj8",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1m5hdja9dr3v6rnljnsf6vwmkjseq5muwya4w06",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1h5cawapgzx3pmlq6mh76pjzrwcky40slcvglpd",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn140l6y2gp3gxvay6qtn70re7z2s0gn57z3ej6pq",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1f93g48h2tk9tvpteyx2wfjrwal2x6wyvn22l0q",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1q73wvt9y6r4pys3k78gtn8nak4ywhrltp8quqc",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1yqfmzde3avqhqcd9rspj5gtvjlvdctt0zyf27s",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1yunn506mak8hgzf8jh80z87n7wwjm3l6wayjrt",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "10000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1707958800"
+          },
+          "start_time": "1676422800",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "9000000"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6904,6 +7396,114 @@
             {
               "denom": "uqwoyn",
               "amount": "65217400000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1vya27e49xlulz75n3cq7pl80d5xkhngg9mj2u4",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1dnjlcpvx2pe7vy2emxj6hcdleewk0jaj0tlew7",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn14ekv26zhn9cc4yz7akt2c0rzmxf2dz4hmha2s2",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1stusn2aa5tqp5lrsvnmmqn99j5px2myaa76psu",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1curzsl0wjdfeuh4722a83ymdwd3smdzgwduuj8",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1m5hdja9dr3v6rnljnsf6vwmkjseq5muwya4w06",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1h5cawapgzx3pmlq6mh76pjzrwcky40slcvglpd",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn140l6y2gp3gxvay6qtn70re7z2s0gn57z3ej6pq",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1f93g48h2tk9tvpteyx2wfjrwal2x6wyvn22l0q",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1q73wvt9y6r4pys3k78gtn8nak4ywhrltp8quqc",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1yqfmzde3avqhqcd9rspj5gtvjlvdctt0zyf27s",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1yunn506mak8hgzf8jh80z87n7wwjm3l6wayjrt",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "10000000"
             }
           ]
         }
