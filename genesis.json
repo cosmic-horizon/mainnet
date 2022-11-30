@@ -40,35 +40,35 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "teamAllocations",
+          "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "tokenSwaps",
+          "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "liquidityBootstrap",
+          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "airdrops",
+          "address": "qwoyn16qsgrs5stf3mwjdxsc4aeg967udrn0mjdr7rhn",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "foundation",
+          "address": "qwoyn1hw9jaepra8q0cqjk8vjmss4ykh0t0p3un7m8kn",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -63894,16 +63894,34 @@
           ]
         },
         {
-          "address": "teamAllocations",
+          "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "2000000000000"
+              "amount": "666858170000"
             }
           ]
         },
         {
-          "address": "tokenSwaps",
+          "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "1500000000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "1500000000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn16qsgrs5stf3mwjdxsc4aeg967udrn0mjdr7rhn",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -63912,25 +63930,7 @@
           ]
         },
         {
-          "address": "liquidityBootstrap",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "1500000000000"
-            }
-          ]
-        },
-        {
-          "address": "airdrops",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "1500000000000"
-            }
-          ]
-        },
-        {
-          "address": "foundation",
+          "address": "qwoyn1hw9jaepra8q0cqjk8vjmss4ykh0t0p3un7m8kn",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -66876,13 +66876,13 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.400000000000000000",
+        "inflation": "0.300000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "uqwoyn",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.400000000000000000",
+        "inflation_rate_change": "0.230000000000000000",
+        "inflation_max": "0.300000000000000000",
         "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520",
