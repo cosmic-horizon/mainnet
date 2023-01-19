@@ -6728,12 +6728,12 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "7510000000"
               }
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1707958800"
+            "end_time": "1771117200"
           },
           "start_time": "1676422800",
           "vesting_periods": [
@@ -6751,7 +6751,214 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "9000000"
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "312875000"
                 }
               ]
             }
@@ -65541,7 +65748,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "7510000000"
             }
           ]
         },
