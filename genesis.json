@@ -6390,7 +6390,7 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "55-3year",
+              "address": "aj",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
