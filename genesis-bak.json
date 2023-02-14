@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2023-02-13T13:58:37.853749Z",
-  "chain_id": "higgs-boson-2",
+  "genesis_time": "2023-07-10T01:00:00Z",
+  "chain_id": "qwoyn-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -31,20 +31,6 @@
         "sig_verify_cost_secp256k1": "1000"
       },
       "accounts": [
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1ne6rxhlsup036c0zl4acj2qzfqvqdzrmpep4qt",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
         {
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
           "address": "communityPool",
@@ -17060,7 +17046,7 @@
             }
           ]
         },
-{
+        {
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -26732,7 +26718,7 @@
             }
           ]
         },
-{
+        {
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -49796,7 +49782,7 @@
             }
           ]
         },
-{
+        {
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -65175,55 +65161,12 @@
         }
       ]
     },
-    "authz": {
-      "authorization": []
-    },
     "bank": {
       "params": {
         "send_enabled": [],
         "default_send_enabled": true
       },
       "balances": [
-        {
-          "address": "game module owner account",
-          "coins": [
-            {
-              "denom": "ucoho",
-              "amount": "500000000000000"
-            },
-            {
-              "denom": "uqwoyn",
-              "amount": "10000000000000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "3000000000000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn1wpgehcm8zl0n9znla6ttjmwrxnkn6ccmzwcuu3",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "4000000000000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn1jnt4d7a6mxygtcfvrpkcvsjq5w4mks9vtynaz9",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "3000000000000"
-            }
-          ]
-        },
         {
           "address": "communityPool",
           "coins": [
@@ -67981,19 +67924,45 @@
       ],
       "supply": [
         {
-          "denom": "ucoho",
-          "amount": "500000000000000"
-        },
-        {
           "denom": "uqwoyn",
-          "amount": "20000000000000"
+          "amount": "10000000000000"
         }
       ],
-      "denom_metadata": []
+      "denom_metadata": [
+        {
+          "description": "The native staking token of Qwoyn Blockchain",
+          "denom_units": [
+            {
+              "denom": "uqwoyn",
+              "exponent": 0,
+              "aliases": [
+                "microqwoyn"
+              ]
+            },
+            {
+              "denom": "mqwoyn",
+              "exponent": 3,
+              "aliases": [
+                "milliqwoyn"
+              ]
+            },
+            {
+              "denom": "qwoyn",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uqwoyn",
+          "display": "qwoyn"
+        }
+      ]
     },
     "capability": {
       "index": "1",
       "owners": []
+    },
+    "coho": {
+      "params": {}
     },
     "crisis": {
       "constant_fee": {
@@ -68009,7 +67978,12 @@
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
-        "community_pool": []
+        "community_pool": [
+          {
+            "denom": "uqwoyn",
+            "amount": "2000000000000"
+          }
+        ]
       },
       "delegator_withdraw_infos": [],
       "previous_proposer": "",
@@ -68026,26 +68000,6 @@
     "feegrant": {
       "allowances": []
     },
-    "game": {
-      "params": {
-        "owner": "qwoyn1ne6rxhlsup036c0zl4acj2qzfqvqdzrmpep4qt",
-        "deposit_denom": "ucoho",
-        "staking_inflation": "1",
-        "unstaking_time": "30s",
-        "swap_fee_collector": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
-        "swap_fee": {
-          "denom": "uqwoyn",
-          "amount": "0"
-        }
-      },
-      "deposits": [],
-      "whitelisted_contracts": [],
-      "unbondings": [],
-      "last_unbonding_id": "0",
-      "liquidity": {
-        "amounts": []
-      }
-    },
     "genutil": {
       "gen_txs": []
     },
@@ -68061,10 +68015,10 @@
             "amount": "100000000"
           }
         ],
-        "max_deposit_period": "86400s"
+        "max_deposit_period": "1209600s"
       },
       "voting_params": {
-        "voting_period": "86400s"
+        "voting_period": "1209600s"
       },
       "tally_params": {
         "quorum": "0.400000000000000000",
@@ -68079,7 +68033,6 @@
         "clients_metadata": [],
         "params": {
           "allowed_clients": [
-            "06-solomachine",
             "07-tendermint"
           ]
         },
@@ -68107,7 +68060,7 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.400000000000000000",
+        "inflation": "0.300000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
@@ -68116,27 +68069,26 @@
         "inflation_max": "0.300000000000000000",
         "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "4360000",
-        "max_cap": "21000000000000",
-        "outpost_funding_pool_portion": "0.500000000000000000"
+        "blocks_per_year": "6311520",
+        "max_cap": "21000000000000"
       }
     },
     "params": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
+        "signed_blocks_window": "10000",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
+        "slash_fraction_downtime": "0.0100000000000000"
       },
       "signing_infos": [],
       "missed_blocks": []
     },
     "staking": {
       "params": {
-        "unbonding_time": "1814400s",
-        "max_validators": 100,
+        "unbonding_time": "1209600s",
+        "max_validators": 50,
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "uqwoyn"
@@ -68149,31 +68101,15 @@
       "redelegations": [],
       "exported": false
     },
-    "stimulus": {
-      "params": {}
-    },
     "transfer": {
       "port_id": "transfer",
       "denom_traces": [],
       "params": {
-        "send_enabled": true,
-        "receive_enabled": true
+        "send_enabled": false,
+        "receive_enabled": false
       }
     },
     "upgrade": {},
-    "vesting": {},
-    "wasm": {
-      "params": {
-        "code_upload_access": {
-          "permission": "Everybody",
-          "address": ""
-        },
-        "instantiate_default_permission": "Everybody"
-      },
-      "codes": [],
-      "contracts": [],
-      "sequences": [],
-      "gen_msgs": []
-    }
+    "vesting": {}
   }
 }
