@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2023-02-13T13:58:37.853749Z",
-  "chain_id": "higgs-boson-2",
+  "genesis_time": "2023-07-10T01:00:00Z",
+  "chain_id": "qwoyn-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -33,14 +33,14 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1ne6rxhlsup036c0zl4acj2qzfqvqdzrmpep4qt",
+          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
+          "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -65171,7 +65171,7 @@
       },
       "balances": [
         {
-          "address": "game module owner account",
+          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
           "coins": [
             {
               "denom": "ucoho",
@@ -65215,7 +65215,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "2000000000000"
+              "amount": "2659358170000"
             }
           ]
         },
@@ -68001,14 +68001,14 @@
     },
     "game": {
       "params": {
-        "owner": "qwoyn1ne6rxhlsup036c0zl4acj2qzfqvqdzrmpep4qt",
+        "owner": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
         "deposit_denom": "ucoho",
         "staking_inflation": "1",
         "unstaking_time": "30s",
-        "swap_fee_collector": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
+        "swap_fee_collector": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
         "swap_fee": {
           "denom": "uqwoyn",
-          "amount": "0"
+          "amount": "0.002"
         }
       },
       "deposits": [],
