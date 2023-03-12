@@ -40,7 +40,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
+          "address": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -68005,10 +68005,10 @@
         "deposit_denom": "ucoho",
         "staking_inflation": "1",
         "unstaking_time": "30s",
-        "swap_fee_collector": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
+        "swap_fee_collector": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
         "swap_fee": {
           "denom": "uqwoyn",
-          "amount": "0.002"
+          "amount": "1"
         }
       },
       "deposits": [],
@@ -68092,11 +68092,12 @@
         "interchain_accounts": [],
         "port": "icahost",
         "params": {
-          "host_enabled": true,
+          "host_enabled": false,
           "allow_messages": []
         }
       }
     },
+    "intertx": null,
     "mint": {
       "minter": {
         "inflation": "0.400000000000000000",
