@@ -40,7 +40,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
+          "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -48,13 +48,6 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -65179,7 +65172,7 @@
             },
             {
               "denom": "uqwoyn",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -65216,15 +65209,6 @@
             {
               "denom": "uqwoyn",
               "amount": "2659358170000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "1000000000000"
             }
           ]
         },
@@ -68004,8 +67988,8 @@
         "owner": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
         "deposit_denom": "ucoho",
         "staking_inflation": "1",
-        "unstaking_time": "30s",
-        "swap_fee_collector": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
+        "unstaking_time": "86400s",
+        "swap_fee_collector": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
         "swap_fee": {
           "denom": "uqwoyn",
           "amount": "1"
@@ -68031,13 +68015,13 @@
         "min_deposit": [
           {
             "denom": "uqwoyn",
-            "amount": "100000000"
+            "amount": "500000000"
           }
         ],
-        "max_deposit_period": "86400s"
+        "max_deposit_period": "604800s"
       },
       "voting_params": {
-        "voting_period": "86400s"
+        "voting_period": "604800s"
       },
       "tally_params": {
         "quorum": "0.400000000000000000",
