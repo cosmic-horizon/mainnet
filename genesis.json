@@ -65456,7 +65456,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "2659358170000"
+              "amount": "2659357170000"
             }
           ]
         },
@@ -68192,7 +68192,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "0"
+              "amount": "1000000"
             }
           ]
         }
@@ -68246,16 +68246,14 @@
     },
     "game": {
       "params": {
-        "owner": "qwoyn1ne6rxhlsup036c0zl4acj2qzfqvqdzrmpep4qt",
+        "owner": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
         "deposit_denom": "ucoho",
-        "staking_inflation": "1",
+        "staking_inflation": "1.000000000000000000",
         "unstaking_time": "30s",
-        "swap_fee_collector": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
-        "swap_fee": {
-          "denom": "uqwoyn",
-          "amount": "0"
-        }
-      },
+        "swap_fee_collector": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
+        "swap_fee": "0.001000000000000000"
+      }
+    },
       "deposits": [],
       "whitelisted_contracts": [],
       "unbondings": [],
