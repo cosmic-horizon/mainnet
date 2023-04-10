@@ -408,7 +408,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "22981880000"
+                "amount": "23814400000"
               }
             ],
             "delegated_free": [],
@@ -431,7 +431,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "22980880000"
+                  "amount": "23813400000"
                 }
               ]
             }
