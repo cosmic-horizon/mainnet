@@ -4075,7 +4075,7 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "30-1year",
+              "address": "qwoyn1g9jre47raf8g9w3kkkla9de9pz6knxg87qyy29",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -5147,7 +5147,7 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "41-1year",
+              "address": "qwoyn1mc7mpdl25f3r6a2x6mxw5ulx98smysrxku5thy",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -65474,7 +65474,7 @@
           ]
         },
         {
-          "address": "30-1year",
+          "address": "qwoyn1g9jre47raf8g9w3kkkla9de9pz6knxg87qyy29",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -65573,7 +65573,7 @@
           ]
         },
         {
-          "address": "41-1year",
+          "address": "qwoyn1mc7mpdl25f3r6a2x6mxw5ulx98smysrxku5thy",
           "coins": [
             {
               "denom": "uqwoyn",
