@@ -5065,7 +5065,7 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "39-1year",
+              "address": "qwoyn1y95nu2mstfx7770u2k5t0kwppvpgrgjwjsh6pv",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -65555,7 +65555,7 @@
           ]
         },
         {
-          "address": "39-1year",
+          "address": "qwoyn1y95nu2mstfx7770u2k5t0kwppvpgrgjwjsh6pv",
           "coins": [
             {
               "denom": "uqwoyn",
