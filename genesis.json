@@ -2341,7 +2341,7 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "18-1year",
+              "address": "qwoyn10ealz8l4pn0qeumpe6ms2p4a0k8tjq72c0pkqm",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -3579,7 +3579,7 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "28-3year",
+              "address": "qwoyn12r54pp099yjjuj9eu8t3qfnw6snckjwagd9852",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -5641,7 +5641,7 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "49-1year",
+              "address": "qwoyn1lhk2a5k69gkts60757xvrhd9lfk8zv59dsewhk",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -5723,7 +5723,7 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "51-1year",
+              "address": "qwoyn1v8yc8tp0rpp7ghyvna2x5z3pxhuuts70l7htst",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -65366,7 +65366,7 @@
           ]
         },
         {
-          "address": "18-1year",
+          "address": "qwoyn10ealz8l4pn0qeumpe6ms2p4a0k8tjq72c0pkqm",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -65456,7 +65456,7 @@
           ]
         },
         {
-          "address": "28-1year",
+          "address": "qwoyn12r54pp099yjjuj9eu8t3qfnw6snckjwagd9852",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -65636,7 +65636,7 @@
           ]
         },
         {
-          "address": "49-1year",
+          "address": "qwoyn1lhk2a5k69gkts60757xvrhd9lfk8zv59dsewhk",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -65654,7 +65654,7 @@
           ]
         },
         {
-          "address": "51-1year",
+          "address": "qwoyn1v8yc8tp0rpp7ghyvna2x5z3pxhuuts70l7htst",
           "coins": [
             {
               "denom": "uqwoyn",
