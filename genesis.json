@@ -1,11 +1,11 @@
 {
-  "genesis_time": "2023-07-10T01:00:00Z",
+  "genesis_time": "2023-05-31T11:59:00Z",
   "chain_id": "qwoyn-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
-      "max_gas": "-1",
+      "max_gas": "40000000",
       "time_iota_ms": "1000"
     },
     "evidence": {
@@ -22,6 +22,20 @@
   },
   "app_hash": "",
   "app_state": {
+    "aquifer": {
+      "params": {
+        "maintainer": "",
+        "deposit_token": "ibc/C053D637CCA2A2BA030E2C5EE1B28A16F71CCB0E45E8BE52766DC1B241B77878",
+        "allocation_token": "uqwoyn",
+        "vesting_duration": "31104000",
+        "deposit_end_time": "1679578470",
+        "init_liquidity_price": "1.000000000000000000",
+        "discount": "0.100000000000000000",
+        "liquidity_bootstrapping": false,
+        "liquidity_bootstrapped": false,
+        "ica_connection_id": ""
+      }
+    },
     "auth": {
       "params": {
         "max_memo_characters": "256",
@@ -48,13 +62,6 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn16qsgrs5stf3mwjdxsc4aeg967udrn0mjdr7rhn",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -97,7 +104,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -138,7 +145,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -165,7 +172,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -427,7 +434,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -454,7 +461,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -702,7 +709,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -950,7 +957,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -1212,7 +1219,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -1239,7 +1246,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -1487,7 +1494,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -1735,7 +1742,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -1997,7 +2004,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -2038,7 +2045,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -2079,7 +2086,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -2106,7 +2113,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -2368,7 +2375,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -2409,7 +2416,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -2436,7 +2443,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -2698,7 +2705,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -2739,7 +2746,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -2766,7 +2773,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -3014,7 +3021,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -3276,7 +3283,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -3303,7 +3310,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -3565,7 +3572,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -3592,7 +3599,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -3840,7 +3847,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -4102,7 +4109,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -4143,7 +4150,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -4170,7 +4177,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -4432,7 +4439,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -4473,7 +4480,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -4500,7 +4507,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -4762,7 +4769,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -4803,7 +4810,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -4830,7 +4837,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -5092,7 +5099,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5133,7 +5140,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5174,7 +5181,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5215,7 +5222,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5256,259 +5263,11 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
                   "amount": "1586310000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "44-3year",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "uqwoyn",
-                "amount": "2173920000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1783706400"
-          },
-          "start_time": "1689012000",
-          "vesting_periods": [
-            {
-              "length": "0",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "1000000"
-                }
-              ]
-            },
-            {
-              "length": "31556952",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538341"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
                 }
               ]
             }
@@ -5545,7 +5304,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5586,7 +5345,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5627,7 +5386,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5668,7 +5427,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5709,7 +5468,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5750,48 +5509,7 @@
               ]
             },
             {
-              "length": "31556952",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "1586310000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "52-1year",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "uqwoyn",
-                "amount": "1587310000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1720634400"
-          },
-          "start_time": "1689012000",
-          "vesting_periods": [
-            {
-              "length": "0",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "1000000"
-                }
-              ]
-            },
-            {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5832,7 +5550,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5873,7 +5591,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -5900,7 +5618,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -6148,7 +5866,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -6410,7 +6128,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -6437,7 +6155,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -6699,7 +6417,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -6726,7 +6444,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -6988,7 +6706,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -7015,7 +6733,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -7263,7 +6981,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -7511,7 +7229,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -7759,7 +7477,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -8021,7 +7739,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -8048,7 +7766,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -8310,7 +8028,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -8337,7 +8055,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -8585,7 +8303,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -8847,7 +8565,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -8874,7 +8592,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -9122,7 +8840,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -9370,7 +9088,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -9618,7 +9336,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -9866,7 +9584,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -10114,7 +9832,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -10362,7 +10080,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -10610,7 +10328,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -10872,7 +10590,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -10899,7 +10617,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -11147,7 +10865,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -11409,7 +11127,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -11450,7 +11168,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -11491,7 +11209,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -11532,7 +11250,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -11573,7 +11291,7 @@
               ]
             },
             {
-              "length": "31556952",
+              "length": "31622400",
               "amount": [
                 {
                   "denom": "uqwoyn",
@@ -11600,7 +11318,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -11848,7 +11566,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -12096,7 +11814,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -12344,7 +12062,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -12592,7 +12310,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -12840,7 +12558,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -13088,7 +12806,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -13336,7 +13054,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -13584,7 +13302,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -13832,7 +13550,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -14080,7 +13798,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -14328,7 +14046,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -14576,7 +14294,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -14824,7 +14542,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -15072,7 +14790,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -15320,7 +15038,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -15568,7 +15286,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -15816,7 +15534,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -16064,7 +15782,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -16312,7 +16030,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -16560,7 +16278,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -16791,7 +16509,7 @@
             }
           ]
         },
-{
+        {
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -16808,7 +16526,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -17056,7 +16774,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -17304,7 +17022,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -17552,7 +17270,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -17800,7 +17518,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -18048,7 +17766,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -18296,7 +18014,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -18544,7 +18262,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -18792,7 +18510,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -19040,7 +18758,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -19288,7 +19006,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -19306,7 +19024,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958341"
+                  "amount": "312458341"
                 }
               ]
             },
@@ -19315,7 +19033,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19324,7 +19042,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19333,7 +19051,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19342,7 +19060,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19351,7 +19069,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19360,7 +19078,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19369,7 +19087,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19378,7 +19096,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19387,7 +19105,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19396,7 +19114,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19405,7 +19123,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19414,7 +19132,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19423,7 +19141,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19432,7 +19150,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19441,7 +19159,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19450,7 +19168,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19459,7 +19177,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19468,7 +19186,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19477,7 +19195,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19486,7 +19204,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19495,7 +19213,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19504,7 +19222,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19513,7 +19231,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             }
@@ -19536,7 +19254,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -19554,7 +19272,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958341"
+                  "amount": "312458341"
                 }
               ]
             },
@@ -19563,7 +19281,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19572,7 +19290,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19581,7 +19299,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19590,7 +19308,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19599,7 +19317,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19608,7 +19326,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19617,7 +19335,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19626,7 +19344,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19635,7 +19353,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19644,7 +19362,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19653,7 +19371,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19662,7 +19380,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19671,7 +19389,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19680,7 +19398,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19689,7 +19407,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19698,7 +19416,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19707,7 +19425,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19716,7 +19434,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19725,7 +19443,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19734,7 +19452,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19743,7 +19461,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19752,7 +19470,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             },
@@ -19761,7 +19479,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "3124958333"
+                  "amount": "312458333"
                 }
               ]
             }
@@ -19784,7 +19502,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -20032,7 +19750,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -20280,7 +19998,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -20528,7 +20246,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -20776,7 +20494,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -21024,7 +20742,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -21272,7 +20990,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -21520,7 +21238,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -21768,7 +21486,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -22016,7 +21734,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -22264,7 +21982,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -22512,7 +22230,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -22760,7 +22478,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -23008,7 +22726,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -23256,7 +22974,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -23504,7 +23222,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -23752,7 +23470,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -24000,7 +23718,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -24248,7 +23966,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -24496,7 +24214,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -24744,7 +24462,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -24992,7 +24710,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -25240,7 +24958,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -25488,7 +25206,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -25736,7 +25454,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -25984,7 +25702,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -26232,7 +25950,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -26463,7 +26181,7 @@
             }
           ]
         },
-{
+        {
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -26480,7 +26198,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -26728,7 +26446,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -26976,7 +26694,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -27224,7 +26942,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -27472,7 +27190,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -27720,7 +27438,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -27968,7 +27686,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -28216,7 +27934,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -28464,7 +28182,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -28712,7 +28430,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -28960,7 +28678,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -29208,7 +28926,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -29456,7 +29174,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -29704,7 +29422,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -29952,7 +29670,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -30200,7 +29918,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -30448,7 +30166,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -30696,7 +30414,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -30944,7 +30662,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -31192,7 +30910,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -31440,7 +31158,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -31688,7 +31406,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -31936,7 +31654,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -32184,7 +31902,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -32432,7 +32150,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -32680,7 +32398,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -32928,7 +32646,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -33176,7 +32894,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -33424,7 +33142,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -33672,7 +33390,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -33920,7 +33638,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -34168,7 +33886,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -34416,7 +34134,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -34664,7 +34382,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -34912,7 +34630,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -35160,7 +34878,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -35408,7 +35126,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -35656,7 +35374,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -35904,7 +35622,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -36152,7 +35870,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -36400,7 +36118,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -36648,7 +36366,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -36896,7 +36614,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -37144,7 +36862,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -37392,7 +37110,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -37640,7 +37358,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -37888,7 +37606,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -38136,7 +37854,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -38384,7 +38102,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -38632,7 +38350,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -38880,7 +38598,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -39128,7 +38846,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -39376,7 +39094,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -39624,7 +39342,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -39872,7 +39590,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -40120,7 +39838,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -40368,7 +40086,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -40616,7 +40334,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -40864,7 +40582,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -41112,7 +40830,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -41360,7 +41078,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -41608,7 +41326,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -41856,7 +41574,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -42104,7 +41822,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -42352,7 +42070,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -42600,7 +42318,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -42848,7 +42566,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -43096,7 +42814,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -43344,7 +43062,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -43592,7 +43310,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -43840,7 +43558,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -44088,7 +43806,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -44336,7 +44054,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -44584,7 +44302,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -44832,7 +44550,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -45080,7 +44798,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -45328,7 +45046,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -45576,7 +45294,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -45824,7 +45542,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -46072,7 +45790,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -46320,7 +46038,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -46568,7 +46286,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -46816,7 +46534,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -47064,7 +46782,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -47312,7 +47030,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -47560,7 +47278,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -47808,7 +47526,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -48056,7 +47774,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -48304,7 +48022,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -48552,7 +48270,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -48800,7 +48518,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -49048,7 +48766,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -49296,7 +49014,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -49527,7 +49245,7 @@
             }
           ]
         },
-{
+        {
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -49544,7 +49262,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -49792,7 +49510,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -50040,7 +49758,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -50288,7 +50006,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -50536,7 +50254,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -50784,7 +50502,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -51032,7 +50750,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -51280,7 +50998,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -51528,7 +51246,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -51776,7 +51494,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -52024,7 +51742,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -52272,7 +51990,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -52520,7 +52238,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -52768,7 +52486,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -53016,7 +52734,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -53264,7 +52982,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -53512,7 +53230,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -53760,7 +53478,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -54008,7 +53726,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -54256,7 +53974,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -54504,7 +54222,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -54752,7 +54470,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -55000,7 +54718,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -55248,7 +54966,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -55496,7 +55214,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -55744,7 +55462,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -55992,7 +55710,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -56240,7 +55958,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -56488,7 +56206,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -56736,7 +56454,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -56984,7 +56702,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -57232,7 +56950,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -57480,7 +57198,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -57728,7 +57446,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -57976,7 +57694,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -58224,7 +57942,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -58472,7 +58190,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -58720,7 +58438,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -58968,7 +58686,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -59216,7 +58934,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -59464,7 +59182,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -59712,7 +59430,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -59960,7 +59678,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -60209,7 +59927,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -60457,7 +60175,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -60705,7 +60423,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -60953,7 +60671,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -61201,7 +60919,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -61449,7 +61167,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -61697,7 +61415,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -61945,7 +61663,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -62193,7 +61911,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -62441,7 +62159,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -62689,7 +62407,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -62937,7 +62655,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -63185,7 +62903,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -63433,7 +63151,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -63681,7 +63399,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -63929,7 +63647,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -64177,7 +63895,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -64425,7 +64143,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -64673,7 +64391,7 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -64921,7 +64639,255 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1783706400"
+            "end_time": "1781053110"
+          },
+          "start_time": "1689012000",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1m7mfduypv63rcxrxthg0a0nfk3r58lpslddjsy",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "1000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1781053110"
           },
           "start_time": "1689012000",
           "vesting_periods": [
@@ -65160,46 +65126,15 @@
     "bank": {
       "params": {
         "send_enabled": [],
-        "default_send_enabled": true
+        "default_send_enabled": false
       },
       "balances": [
         {
           "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
           "coins": [
             {
-              "denom": "ucoho",
-              "amount": "500000000000000"
-            },
-            {
               "denom": "uqwoyn",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "3000000000000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn1wpgehcm8zl0n9znla6ttjmwrxnkn6ccmzwcuu3",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "4000000000000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn1jnt4d7a6mxygtcfvrpkcvsjq5w4mks9vtynaz9",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "3000000000000"
+              "amount": "2003761230000"
             }
           ]
         },
@@ -65208,16 +65143,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "2659357170000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn16qsgrs5stf3mwjdxsc4aeg967udrn0mjdr7rhn",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "1000000000000"
+              "amount": "3553690820000"
             }
           ]
         },
@@ -65226,7 +65152,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "1500000000000"
+              "amount": "2000000000000"
             }
           ]
         },
@@ -65600,15 +65526,6 @@
           ]
         },
         {
-          "address": "44-3year",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "2173920000"
-            }
-          ]
-        },
-        {
           "address": "qwoyn1rw3lfj9y5y6l6wshejd57j0zezx0xxkvmu2v9j",
           "coins": [
             {
@@ -65655,15 +65572,6 @@
         },
         {
           "address": "qwoyn1v8yc8tp0rpp7ghyvna2x5z3pxhuuts70l7htst",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "1587310000"
-            }
-          ]
-        },
-        {
-          "address": "52-1year",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -67931,6 +67839,15 @@
           ]
         },
         {
+          "address": "qwoyn1m7mfduypv63rcxrxthg0a0nfk3r58lpslddjsy",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
           "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
           "coins": [
             {
@@ -67942,15 +67859,39 @@
       ],
       "supply": [
         {
-          "denom": "ucoho",
-          "amount": "500000000000000"
-        },
-        {
           "denom": "uqwoyn",
-          "amount": "20000000000000"
+          "amount": "10000000000000"
         }
       ],
-      "denom_metadata": []
+      "denom_metadata": [
+        {
+          "description": "The native staking token of Qwoyn Network",
+          "denom_units": [
+            {
+              "denom": "uqwoyn",
+              "exponent": 0,
+              "aliases": [
+                "microqwoyn"
+              ]
+            },
+            {
+              "denom": "mqwoyn",
+              "exponent": 3,
+              "aliases": [
+                "milliqwoyn"
+              ]
+            },
+            {
+              "denom": "qwoyn",
+              "exponent": 6
+            }
+          ],
+          "base": "uqwoyn",
+          "display": "qwoyn",
+          "name": "Qwoyn Network Governance Token",
+          "symbol": "QNQ"
+        }
+      ]
     },
     "capability": {
       "index": "1",
@@ -67990,13 +67931,12 @@
     "game": {
       "params": {
         "owner": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
-        "deposit_denom": "ucoho",
-        "staking_inflation": "1.000000000000000000",
-        "unstaking_time": "30s",
+        "deposit_denom": "uqwoyn",
+        "staking_inflation": "0.010000000000000000",
+        "unstaking_time": "300s",
         "swap_fee_collector": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
-        "swap_fee": "0.001000000000000000"
-      }
-    },
+        "swap_fee": "0.005000000000000000"
+      },
       "deposits": [],
       "whitelisted_contracts": [],
       "unbondings": [],
@@ -68017,13 +67957,13 @@
         "min_deposit": [
           {
             "denom": "uqwoyn",
-            "amount": "100000000"
+            "amount": "2000000000"
           }
         ],
-        "max_deposit_period": "86400s"
+        "max_deposit_period": "604800s"
       },
       "voting_params": {
-        "voting_period": "86400s"
+        "voting_period": "604800s"
       },
       "tally_params": {
         "quorum": "0.400000000000000000",
@@ -68070,7 +68010,7 @@
         "interchain_accounts": [],
         "ports": [],
         "params": {
-          "controller_enabled": true
+          "controller_enabled": false
         }
       },
       "host_genesis_state": {
@@ -68078,21 +68018,22 @@
         "interchain_accounts": [],
         "port": "icahost",
         "params": {
-          "host_enabled": true,
+          "host_enabled": false,
           "allow_messages": []
         }
       }
     },
+    "intertx": null,
     "mint": {
       "minter": {
-        "inflation": "0.400000000000000000",
+        "inflation": "0.150000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "uqwoyn",
-        "inflation_rate_change": "0.230000000000000000",
-        "inflation_max": "0.300000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_rate_change": "0.050000000000000000",
+        "inflation_max": "0.150000000000000000",
+        "inflation_min": "0.100000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "4360000",
         "max_cap": "21000000000000",
@@ -68114,7 +68055,7 @@
     "staking": {
       "params": {
         "unbonding_time": "1814400s",
-        "max_validators": 100,
+        "max_validators": 50,
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "uqwoyn"
@@ -68134,8 +68075,8 @@
       "port_id": "transfer",
       "denom_traces": [],
       "params": {
-        "send_enabled": true,
-        "receive_enabled": true
+        "send_enabled": false,
+        "receive_enabled": false
       }
     },
     "upgrade": {},
@@ -68143,14 +68084,15 @@
     "wasm": {
       "params": {
         "code_upload_access": {
-          "permission": "Everybody",
+          "permission": "Nobody",
           "address": ""
         },
-        "instantiate_default_permission": "Everybody"
+        "instantiate_default_permission": "Nobody"
       },
       "codes": [],
       "contracts": [],
       "sequences": [],
       "gen_msgs": []
     }
+  }
 }
