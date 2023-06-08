@@ -5,8 +5,7 @@
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
-      "max_gas": "40000000",
-      "time_iota_ms": "1000"
+      "max_gas": "40000000"
     },
     "evidence": {
       "max_age_num_blocks": "100000",
@@ -18,10 +17,13 @@
         "ed25519"
       ]
     },
-    "version": {}
+    "version": {
+      "app": "0"
+    }
   },
   "app_hash": "",
   "app_state": {
+    "07-tendermint": null,
     "aquifer": {
       "params": {
         "maintainer": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
@@ -65126,7 +65128,7 @@
     "bank": {
       "params": {
         "send_enabled": [],
-        "default_send_enabled": false
+        "default_send_enabled": true
       },
       "balances": [
         {
@@ -67857,12 +67859,7 @@
           ]
         }
       ],
-      "supply": [
-        {
-          "denom": "uqwoyn",
-          "amount": "10000000000000"
-        }
-      ],
+      "supply": [],
       "denom_metadata": [
         {
           "description": "The native staking token of Qwoyn Network",
@@ -67891,12 +67888,14 @@
           "name": "Qwoyn Network Governance Token",
           "symbol": "QNQ"
         }
-      ]
+      ],
+      "send_enabled": []
     },
     "capability": {
       "index": "1",
       "owners": []
     },
+    "consensus": null,
     "crisis": {
       "constant_fee": {
         "denom": "uqwoyn",
@@ -67906,8 +67905,8 @@
     "distribution": {
       "params": {
         "community_tax": "0.020000000000000000",
-        "base_proposer_reward": "0.010000000000000000",
-        "bonus_proposer_reward": "0.040000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
@@ -67928,12 +67927,19 @@
     "feegrant": {
       "allowances": []
     },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
     "game": {
       "params": {
         "owner": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
         "deposit_denom": "uqwoyn",
-        "staking_inflation": "0.010000000000000000",
-        "unstaking_time": "300s",
+        "staking_inflation": "1.000000000000000000",
+        "unstaking_time": "30s",
         "swap_fee_collector": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
         "swap_fee": "0.005000000000000000"
       },
@@ -67953,22 +67959,25 @@
       "deposits": [],
       "votes": [],
       "proposals": [],
-      "deposit_params": {
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
         "min_deposit": [
           {
             "denom": "uqwoyn",
             "amount": "2000000000"
           }
         ],
-        "max_deposit_period": "604800s"
-      },
-      "voting_params": {
-        "voting_period": "604800s"
-      },
-      "tally_params": {
-        "quorum": "0.400000000000000000",
+        "max_deposit_period": "604800s",
+        "voting_period": "604800s",
+        "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
-        "veto_threshold": "0.334000000000000000"
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.010000000000000000",
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true
       }
     },
     "ibc": {
@@ -68010,7 +68019,7 @@
         "interchain_accounts": [],
         "ports": [],
         "params": {
-          "controller_enabled": false
+          "controller_enabled": true
         }
       },
       "host_genesis_state": {
@@ -68043,7 +68052,7 @@
     "params": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
+        "signed_blocks_window": "10000",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
@@ -68058,7 +68067,8 @@
         "max_validators": 50,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "uqwoyn"
+        "bond_denom": "uqwoyn",
+        "min_commission_rate": "0.050000000000000000"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
@@ -68085,14 +68095,14 @@
       "params": {
         "code_upload_access": {
           "permission": "Nobody",
-          "address": ""
+          "address": "",
+          "addresses": []
         },
         "instantiate_default_permission": "Nobody"
       },
       "codes": [],
       "contracts": [],
-      "sequences": [],
-      "gen_msgs": []
+      "sequences": []
     }
   }
 }
