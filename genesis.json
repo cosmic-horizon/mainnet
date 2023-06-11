@@ -417,7 +417,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "23814400000"
+                "amount": "23981880000"
               }
             ],
             "delegated_free": [],
@@ -440,7 +440,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "23813400000"
+                  "amount": "23980880000"
                 }
               ]
             }
@@ -6166,7 +6166,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -6175,7 +6175,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -6400,7 +6400,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -6414,7 +6414,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -6455,7 +6455,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -6464,7 +6464,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -6689,7 +6689,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -6703,7 +6703,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -6744,7 +6744,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -6753,7 +6753,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -6992,7 +6992,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -7001,7 +7001,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -7240,7 +7240,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -7249,7 +7249,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -7466,7 +7466,7 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "qwoyn1yqfmzde3avqhqcd9rspj5gtvjlvdctt0zyf27s",
+              "address": "qwoyn1u4zhfk4xzle5w9ugpnm32ra4tuaqffytw6urqy",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -7488,7 +7488,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -7497,7 +7497,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -7722,7 +7722,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -7736,7 +7736,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -7777,7 +7777,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -7786,7 +7786,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -8011,7 +8011,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -8025,7 +8025,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -8066,7 +8066,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -8075,7 +8075,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -8314,7 +8314,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -8323,7 +8323,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -8548,7 +8548,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -8562,7 +8562,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -8603,7 +8603,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -8612,7 +8612,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -8851,7 +8851,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -8860,7 +8860,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -9099,7 +9099,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -9108,7 +9108,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -9347,7 +9347,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -9356,7 +9356,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -9595,7 +9595,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -9604,7 +9604,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -9843,7 +9843,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -9852,7 +9852,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -10091,7 +10091,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -10100,7 +10100,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -10339,7 +10339,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -10348,7 +10348,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -10573,7 +10573,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -10587,7 +10587,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -10628,7 +10628,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -10637,7 +10637,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -10876,7 +10876,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "11000000"
                 }
               ]
             },
@@ -10885,7 +10885,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "312875000"
+                  "amount": "302875000"
                 }
               ]
             },
@@ -11110,7 +11110,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -11124,7 +11124,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -11151,7 +11151,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -11165,7 +11165,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -11192,7 +11192,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -11206,7 +11206,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -11233,7 +11233,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -11247,7 +11247,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -11274,7 +11274,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "10000000"
+                "amount": "19000000"
               }
             ],
             "delegated_free": [],
@@ -11288,7 +11288,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               ]
             },
@@ -65145,7 +65145,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "3553690820000"
+              "amount": "3553591820000"
             }
           ]
         },
@@ -65199,7 +65199,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "22981880000"
+              "amount": "23981880000"
             }
           ]
         },
@@ -65658,7 +65658,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65685,7 +65685,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65717,7 +65717,7 @@
           ]
         },
         {
-          "address": "qwoyn1yqfmzde3avqhqcd9rspj5gtvjlvdctt0zyf27s",
+          "address": "qwoyn1u4zhfk4xzle5w9ugpnm32ra4tuaqffytw6urqy",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -65730,7 +65730,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65748,7 +65748,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65775,7 +65775,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65856,7 +65856,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65883,7 +65883,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65892,7 +65892,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65901,7 +65901,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65910,7 +65910,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
@@ -65919,7 +65919,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "10000000"
+              "amount": "19000000"
             }
           ]
         },
