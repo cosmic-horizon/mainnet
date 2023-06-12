@@ -26,7 +26,7 @@
     "07-tendermint": null,
     "aquifer": {
       "params": {
-        "maintainer": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
+        "maintainer": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
         "deposit_token": "ibc/C053D637CCA2A2BA030E2C5EE1B28A16F71CCB0E45E8BE52766DC1B241B77878",
         "allocation_token": "uqwoyn",
         "vesting_duration": "31104000",
@@ -49,28 +49,28 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+          "address": "qwoyn1qn8mzcel2svf6s47hltuxtkl8e7w07tjaaleuj",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
+          "address": "qwoyn1w8k4gw265xgfaxk6ghtrkrfqz367ukt2m2ha9d",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
+          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1hw9jaepra8q0cqjk8vjmss4ykh0t0p3un7m8kn",
+          "address": "qwoyn1kxkpval5qx784pj4h4nu433w9rygzhjr7vug5z",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -65132,7 +65132,7 @@
       },
       "balances": [
         {
-          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+          "address": "qwoyn1qn8mzcel2svf6s47hltuxtkl8e7w07tjaaleuj",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -65141,7 +65141,7 @@
           ]
         },
         {
-          "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
+          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -65150,7 +65150,7 @@
           ]
         },
         {
-          "address": "qwoyn1hw9jaepra8q0cqjk8vjmss4ykh0t0p3un7m8kn",
+          "address": "qwoyn1kxkpval5qx784pj4h4nu433w9rygzhjr7vug5z",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -67850,7 +67850,7 @@
           ]
         },
         {
-          "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
+          "address": "qwoyn1w8k4gw265xgfaxk6ghtrkrfqz367ukt2m2ha9d",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -67936,11 +67936,11 @@
     },
     "game": {
       "params": {
-        "owner": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+        "owner": "qwoyn1qn8mzcel2svf6s47hltuxtkl8e7w07tjaaleuj",
         "deposit_denom": "uqwoyn",
         "staking_inflation": "1.000000000000000000",
         "unstaking_time": "30s",
-        "swap_fee_collector": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
+        "swap_fee_collector": "qwoyn1w8k4gw265xgfaxk6ghtrkrfqz367ukt2m2ha9d",
         "swap_fee": "0.005000000000000000"
       },
       "deposits": [],
