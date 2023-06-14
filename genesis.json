@@ -1,6 +1,6 @@
 {
   "genesis_time": "2023-06-16T18:00:00Z",
-  "chain_id": "qwoyn-1",
+  "chain_id": "qwoyn-2",
   "initial_height": "1",
   "consensus_params": {
     "block": {
